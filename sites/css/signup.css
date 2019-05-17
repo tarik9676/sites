@@ -1,0 +1,101 @@
+.container-fluid {
+    /* height: 100vh; */
+}
+
+body {
+    min-width: 450px;
+}
+
+#container {
+    width: 80%;
+    box-shadow: 5px 5px 50px #bfbfbf;
+    background: url('../img/superkid.jpg');
+    background-size: cover;
+    margin: 100px 0;
+}
+
+#left {
+    background: white;
+    width: 40%;
+    padding: 40px 30px;
+}
+
+#right {
+    width: 60%;
+}
+
+#right>h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+#right>p {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+    /*     font-weight: bold; */
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.igroup {
+    margin: 40px 0;
+    width: 100%;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid #6db9ef;
+    outline: none;
+    font-family: 'Roboto Slab', FontAwesome;
+}
+
+input::placeholder {
+    padding: 5px;
+    font-size: 14px;
+}
+
+#fname,
+#lname,
+#email,
+#username,
+#password,
+#confirmpassword,
+#birthdate,
+#gender {
+    width: 48%;
+    /*     display: list-item; */
+}
+
+#signup-btn {
+    background: #6091da;
+    border: 0;
+    width: 120px;
+    color: white;
+    padding: 5px 0;
+    border-radius: 30px;
+    font-family: 'Roboto Slab', FontAwesome;
+}
+
+#signup-btn:hover {
+    cursor: pointer;
+    background: #0046af;
+}
+
+#Login-link {
+    font-family: 'Roboto Slab', FontAwesome;
+}
+
+@media screen and (max-width: 767px) {
+    #container {
+        display: flex;
+        flex-direction: column-reverse !important
+    }
+    #left {
+        width: 100%
+    }
+    #right {
+        width: 100%
+    }
+}

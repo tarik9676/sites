@@ -1,0 +1,120 @@
+nav {
+    background-color: #4D636F;
+}
+
+a.navbar-brand {
+    background-color: #29415f;
+    padding: 10px 30px;
+    color: white
+}
+
+a.nav-link {
+    font-size: 18px;
+    color: white !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+}
+
+a.nav-link:hover i {
+    color: #ffffffc2 !important
+}
+
+.material-icons {
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+#badge {
+    font-size: 12px;
+    font-weight: bolder;
+    background-color: #4CAF50;
+    padding: 0 5px;
+    border-radius: 20%;
+    position: relative;
+    top: -12px;
+    left: -7px;
+}
+
+#my-account img {
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+#nav-right {
+    margin-right: 20px
+}
+
+.afr {
+    color: white;
+    padding: 12px 15px;
+}
+
+.afr:hover {
+    cursor: pointer;
+    /*     background-color: #F3F3F3; */
+    color: #ababab;
+}
+
+#sm-my-account {
+    display: none;
+}
+
+
+/* #sm-my-account img {
+    width: 20px;
+    height: 20px;
+} */
+
+@media screen and (max-width: 767px) {
+    #nav-right {
+        position: fixed;
+        right: 0px;
+        top: 5px;
+        margin-right: 0;
+    }
+    #my-account {
+        display: none !important;
+    }
+    /* #sm-my-account {
+        display: block;
+    } */
+    li.nav-item>a.nav-link:after {
+        font-family: 'Kanit', sans-serif;
+        font-size: 15px;
+    }
+    li.nav-item:nth-child(1) a.nav-link:after {
+        content: "Messages";
+    }
+    li.nav-item:nth-child(2) a.nav-link:after {
+        content: "Notifications";
+    }
+    li.nav-item:nth-child(3) a.nav-link:after {
+        content: "Settings";
+    }
+    li.nav-item>a.nav-link:hover:after {
+        color: black
+    }
+}
+
+button {
+    font-family: 'Merienda', cursive;
+}
+
+li.nav-item button,
+#nav-right button {
+    background-color: transparent;
+    border: 0
+}
+
+.dropleft .dropdown-menu {
+    left: -90px;
+    top: 35px;
+}
+
+
+/* ENDING NAVIGATION BAR */

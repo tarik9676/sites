@@ -1,0 +1,19 @@
+body {
+    /* background: url("../img/social.jpg") no-repeat center; */
+    background-size: cover;
+    background-color: #EBEBEB;
+}
+
+.container-fluid {
+    min-height: 100vh !important;
+}
+
+.container {
+    /* opacity: 0.9; */
+    margin-top: 130px;
+    margin-bottom: 60px;
+}
+
+form {
+    background-color: white;
+}

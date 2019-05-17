@@ -1,0 +1,63 @@
+#chatBox {
+    margin: auto;
+    padding: 10px;
+    max-width: 350px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#chat {
+    height: 400px;
+    width: 100%;
+    overflow: auto
+}
+
+#inChat {
+    width: 100%;
+    display: inline-block;
+}
+
+#inChat p {
+    border-radius: 20px;
+    max-width: 80%;
+    padding: 6px 8px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#inChat i {
+    font-size: 10px;
+    color: green;
+    font-weight: bolder;
+    padding: 0 4px;
+    display: none
+}
+
+i#me {
+    float: right;
+}
+
+i#friend {
+    float: left;
+}
+
+p#me {
+    float: right;
+    background: #2e7add;
+    color: white;
+}
+
+p#friend {
+    float: left;
+    background: #ececec;
+}
+
+#enter {
+    display: flex;
+}
+
+#send-text {
+    width: 100%;
+    margin-right: 5px;
+}
